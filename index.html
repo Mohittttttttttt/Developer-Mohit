@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="practice/favicon.ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Developer mohit</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0px;
+            padding: 0px;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to top left, #42bddc, #1dcad3);
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 30px;
+            top: 20px;
+
+        }
+
+        .left img {
+            height: 110px;
+        }
+
+        .center {
+            /* border: 2px solid green; */
+            display: block;
+            margin: 20px auto;
+            width: 30%;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+            background-color: rgba(217, 219, 220, 0.547);
+            border-radius: 6px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            position: absolute;
+            right: 30px;
+            top: 20px;
+        }
+
+        .btn {
+            color: black;
+            background-color: rgba(217, 219, 220, 0.547);
+            border-radius: 6px;
+            margin: 2px;
+            padding: 5px;
+            border: none;
+        }
+        .btn a{
+            color: black;
+            text-decoration: none;
+
+        }
+        .btn:hover,.btn:active{
+            color: white;
+            background-color: rgba(112, 171, 200, 0.547);
+        }
+        .container{
+            width: 70%;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        /* .container img {
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid white;
+            transition: all ease-in-out 1.0s;
+        }
+        .container img:hover{
+            width:80%;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <div>
+            <img src="developermohit.png" alt="developer mohit">
+        </div>
+    </div>
+    <div class="center">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Gallary</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn"><a href="https://www.instagram.com/mohit94_/">Instagram</a></button>
+        <button class="btn"><a href="https://www.linkedin.com/in/mohit-patidar-552739306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkdin</a></button>
+    </div>
+    <!-- <div class="container">
+        <img src="image/IMG_20240609_180833.jpg" >
+        <img src="image/IMG_20240609_180905.jpg" >
+        <img src="image/IMG_20240609_194243.jpg" >
+        <img src="image/IMG_20240609_194357.jpg" >
+        <img src="image/IMG_20240609_180812.jpg" >
+    </div> -->
+    
+</body>
+
+</html>
